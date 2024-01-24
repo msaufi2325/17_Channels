@@ -5,7 +5,7 @@ import (
 	"log"
 )
 
-const numPool = 10
+const numPool = 1000
 
 func CalculateValue(intChan chan int) {
 	randomNumber := helpers.RandomNumber(numPool)
